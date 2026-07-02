@@ -436,6 +436,6 @@ discountdb
 discountdb-shm
 discountdb-wal
 
-# Claude Code - personal config (keep the shared team settings.json)
-.claude/settings.local.json
+# Claude Code - personal config, do not commit
+.claude/
 CLAUDE.md
