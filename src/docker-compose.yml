@@ -5,6 +5,9 @@ services:
   basketdb:
     image: postgres
 
+  discountdb:
+    image: postgres
+
   distributedcache:
     image: redis
 
@@ -29,6 +32,7 @@ services:
 volumes:
   postgres_catalog:
   postgres_basket:
+  postgres_discount:
 
 
 
